@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamTech / Ana Sayfa</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'VT323', monospace;
+            margin: 0;
+            padding: 0;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+
+        .navbar {
+            background-color: #333;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .up-down-animation {
+            text-align: center;
+            padding: 100px 0;
+            animation: bounce 2s infinite alternate;
+        }
+
+        .profil {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .profil img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .profil-bilgi {
+            max-width: 800px;
+        }
+
+        h1, h2, p {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        h1 {
+            color: #10eb10;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #10eb10;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        /* Animasyonlar */
+        @keyframes bounce {
+            0% { transform: translateY(-20px); }
+            100% { transform: translateY(20px); }
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <a href="#">Ana Sayfa</a> | <a href="/api">Projelerim</a> | <a href="/bana-ulasin">Bana Ulaşın</a>
+</div>
+<div class="up-down-animation">
+    <h1>DreamTech Team Industrıes</h1>
+</div>
+<div class="profil">
+    <img src="pp.png" alt="Profil Resmi">
+    <div class="profil-bilgi">
+        <h2>DreamTech</h2>
+        <p>Merhaba! Ben DreamTech. Bir yazılım geliştiricisiyim. Teknolojiye olan ilgim ve merakım sayesinde genç yaşta bu alanda kendimi geliştirdim ve kendi projelerimi yaptım.</p>
+        <p>Teknolojiye olan ilgim 5. sınıfta başladı. Bilgisayarlarla ve kodlama dünyasıyla ilk tanışmam, TürkTerminal adlı projemi geliştirmek ile oldu. Ardından discord botu geliştirme ve siber güvenlik alanında kendimi daha da geliştirmeye başladım. Başlangıçta TürkTerminal adlı projemi oluşturarak adımı atmaya başladım.</p>
+    </div>
+</div>
+
+<script>
+    // JavaScript kodları buraya eklenebilir.
+</script>
+
+</body>
+</html>
